@@ -1,0 +1,207 @@
+/* Navbar Styles */
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#258dee;
+    padding: 7px 40px;
+    color: white;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #031b33;
+    padding: 15px 40px;
+}
+.navbar img{
+    padding-left: 40px;
+}
+.navbar ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+.navbar li {
+    margin-left: 40px;
+}
+.navbar li:last-child {
+    margin-right: 100px;
+}
+
+.navbar li:first-child a {
+    padding: 18.3px 13px ;
+    background-color: #258dee;
+}
+.navbar a{
+    text-decoration: none;
+    color: white;
+    font-weight: 100px;
+    font-size: large;
+    font-weight: 500;
+    text-transform: capitalize; 
+}
+.navbar li:first-child a:hover{
+    background-color:#05274a;
+}
+.navbar a:hover{
+    background-color:#166bbb;
+}
+
+/* Main Section Styles */
+/* Main Section Styles */
+.main {
+    position: relative; /* Add this line */
+    padding:200px 120px;
+    background-image: url('./images/back2.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.imageoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 94%;
+    height: 100%;
+    padding: 0 40px;
+    color: white;
+    font-weight: bolder;
+    background-color: #166bbb6a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.main h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+.main p {
+    margin-top: 0px;
+    font-size: 20px;
+    text-align: center; 
+}
+
+/* Centre Section Styles */
+.centre {
+    font-size: 20px;
+    color: #838282;
+    background-color:#efefef;
+    padding-left: 15px;
+    padding-right: 20px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+}
+.centre > .content{
+    display: flex;
+}
+.centre > .heading> h1 {
+    color: black;
+    font-size: 18px;
+    padding-top: 30px;
+    padding-bottom: 0px;
+    padding-right: 20px;
+    margin-top: 0px;
+}
+
+.centre > .content > p {
+    display: flex;
+    font-size: 15px;
+    padding-top: 0px;
+}
+
+.content .link {
+    width: 10%;
+    text-align: center;
+    background-color:#166bbb;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    margin-left: 50px;
+    padding-top: 7px;
+}
+
+.content > .link a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.content > .link:hover {
+    background-color: #051f3b;
+}
+
+/* Last Section Styles */
+.last {
+    font-size: 20px;
+    padding: 40px 30px;
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; /* Center content vertically */
+    align-items: center; /* Center content horizontally */
+}
+
+.head1 {
+    text-align: center; 
+    margin-bottom: 30px; 
+}
+
+.head1 h1{
+    text-transform: capitalize;
+    font-weight: bold;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size:xx-large;
+}
+.last > .head1 p{
+    color: #6b6b6b;
+    font-size: 16px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+
+.line1,.line2 {
+    display: flex; 
+    padding: 10px 0px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 12px;
+}
+.line2 {
+    padding-top: 0px;
+}
+
+
+.line1 > div,.line2 > div {
+    flex: 1;
+    text-align: left; 
+    padding: 0px 10px;
+    padding-right: 20px;
+}
+
+.line1 img,.line2 img {
+    padding-top: 30px;
+    max-width: 80px; 
+    max-height: 70px;
+}
+
+.line1 > div > h2,.line2 > div > h2 {
+    font-weight:500;
+    margin-top: 20px;
+    margin-bottom: 0px; 
+    font-size: 20px;
+}
+
+.line1 > div > p,.line2 > div > p {
+    font-size: 14px;
+    color: #6b6b6b;
+    margin-top: 7px;
+ }
+
